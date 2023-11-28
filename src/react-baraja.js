@@ -12,7 +12,7 @@
 import React     from 'react';
 import PropTypes from 'prop-types';
 import Baraja    from 'baraja-js';
-import 'baraja-js/dist/baraja.min.css';
+import 'baraja-js/src/baraja.css';
 
 /**
  * Provides React Component wrapper.
