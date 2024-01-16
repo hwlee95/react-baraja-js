@@ -29,6 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "baraja-js": "^1.2.5",
+    "baraja-js-customized": "github:hwlee95/baraja-js-customized",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

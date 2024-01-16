@@ -11,8 +11,8 @@
 
 import React     from 'react';
 import PropTypes from 'prop-types';
-import Baraja    from 'baraja-js';
-import 'baraja-js/src/baraja.css';
+import Baraja    from 'baraja-js-customized';
+import 'baraja-js-customized/src/baraja.css';
 
 /**
  * Provides React Component wrapper.
@@ -59,7 +59,7 @@ class BarajaJS extends React.Component {
 }
 
 BarajaJS.defaultProps = {
-  id: 'baraja-js',
+  id: 'baraja-js-customized',
   fan: {},
   close: false,
   last: false,
