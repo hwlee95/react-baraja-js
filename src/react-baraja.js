@@ -17,7 +17,7 @@ import 'baraja-js-customized/src/baraja.css';
 /**
  * Provides React Component wrapper.
  */
-class BarajaJS extends React.Component {
+class MyBarajaJS extends React.Component {
   componentDidMount() {
     this.baraja = new Baraja(
       this.refs.wrapper,
@@ -58,7 +58,7 @@ class BarajaJS extends React.Component {
   }
 }
 
-BarajaJS.defaultProps = {
+MyBarajaJS.defaultProps = {
   id: 'baraja-js-customized',
   fan: {},
   close: false,
@@ -66,7 +66,7 @@ BarajaJS.defaultProps = {
   next: false
 };
 
-BarajaJS.propTypes = {
+MyBarajaJS.propTypes = {
   id: PropTypes.string,
   options: PropTypes.object,
   fan: PropTypes.object,
@@ -76,4 +76,4 @@ BarajaJS.propTypes = {
   next: PropTypes.bool
 };
 
-export default BarajaJS;
+export default MyBarajaJS;
